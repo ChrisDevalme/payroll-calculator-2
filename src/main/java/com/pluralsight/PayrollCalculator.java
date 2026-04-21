@@ -23,7 +23,7 @@ public class PayrollCalculator {
             }
             employeeRecords.close();
         } catch (Exception e) {
-            System.out.println("Invalid File.");
+            System.err.println("Invalid File.");
         }
 
     }
